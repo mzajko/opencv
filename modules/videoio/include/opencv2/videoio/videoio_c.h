@@ -239,6 +239,7 @@ enum
     CV_CAP_PROP_PVAPI_BINNINGY              = 305, // Vertical binning factor
     CV_CAP_PROP_PVAPI_PIXELFORMAT           = 306, // Pixel format
 
+	
 	// Properties of cameras available through XIMEA SDK interface
 	CV_CAP_PROP_XI_TIMEOUT                                      = 400,	// Time interval required to wait for the image (in milliseconds).
 	CV_CAP_PROP_XI_EXPOSURE                                     = 401,	//Exposure time in microseconds
@@ -380,6 +381,7 @@ enum
 	CV_CAP_PROP_XI_FFS_ACCESS_KEY                               = 563,	//Setting of key enables file operations on some cameras.
 	CV_CAP_PROP_XI_SENSOR_FEATURE_SELECTOR                      = 565,	//Selects the current feature which is accessible by XI_PRM_SENSOR_FEATURE_VALUE.
 	CV_CAP_PROP_XI_SENSOR_FEATURE_VALUE                         = 566,	//Allows access to sensor feature value currently selected by XI_PRM_SENSOR_FEATURE_SELECTOR.
+
 
     // Properties for Android cameras
     CV_CAP_PROP_ANDROID_FLASH_MODE = 8001,
